@@ -1,0 +1,210 @@
+
+
+#jumbo {
+  #background-image: url("../img/3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px
+}
+
+#jumbo h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content {
+  #background-color: #ddd;
+  height: 333px;
+  text-align:center;
+  #border: 1px solid #a1a1a1;
+  padding: 10px 40px;
+
+  
+ 
+  border-radius: 25p
+}
+
+#content h1{
+  color:#00f;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content h2{
+  color:#006600;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content p{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+  
+}
+#content ol{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#content ul li{
+  color:#00f;
+  font-family: 'Press Start 2P', cursive;
+}
+#content ul li{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+  display:block;
+}
+
+label {
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#sidebar {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#crab {
+
+  width: 400px;
+}
+
+#content button {
+  font-family: 'Press Start 2P', cursive;
+}
+
+ul li{
+list-style:none;
+display:inline-block;
+padding: 0 10px;
+height: 20px;
+}
+nav{
+float:right;
+#height: 80px;
+
+}
+
+nav a:link, nav a:visited {
+    color: #3359df;
+    display: inline-block;
+    padding: 0 10px;
+    height: 20px;
+}
+
+nav a:hover, nav a:active, nav .active a :link, nav .active a:visited {
+    background-color: #CF5C3F;
+    text-shadow: none;
+}
+
+header {
+
+    
+    #background-color: #0ff;
+    
+    width: 100%;
+    height: 47px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 100;
+} 
+
+
+footer{
+background-color: #105269;
+color:#fff;
+text-align:center;
+height: 120px;
+overflow: hidden;
+opacity: 0.90;
+border-top:5px solid #00e6e6;
+}
+
+
+.container {
+    width: 500px;
+    clear: both;
+    border-left:5px;
+}
+
+.container input {
+    width: 100%;
+    clear: both;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+option {
+    display: inline-block;
+    width: 100px;
+}
+ 
+#gh {
+background-color: #ddd;
+
+}
+
+#gh h4 {
+text-decoration:underline;
+}
+
+
+
+/* seo block styling */
+#site-control-content .seo-block {
+    font-family: Arial,Helvetica,sans-serif;
+    border: 2px solid #dbdcdc;
+    border-top: none;
+    margin: 30px auto;
+    max-width: 980px;
+    overflow: hidden;
+}
+
+.seo-block .col-xs-12{
+   background-color: #dbdcdc; 
+   height:45px;
+}
+
+.seo-block h2 {
+    margin: 0 0 0 15px;
+    line-height:44px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.last h3 {
+    background-color: transparent;
+    line-height: 1em;
+    padding: 0;
+    font-size: 1em;
+}
+
+.seo-block h3 {
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.seo-block .col-xs-6 {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 30px;
+}
+
+.seo-block .col-xs-6.last {
+    padding-left: 0;
+}
+
+.seo-block p {
+    font-size: 13px;
+}
